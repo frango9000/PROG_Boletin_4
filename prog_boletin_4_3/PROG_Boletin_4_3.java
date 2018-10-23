@@ -5,20 +5,18 @@
  */
 package prog_boletin_4_3;
 
-
 /**
  *
  * @author fsancheztemprano
  */
 public class PROG_Boletin_4_3 {
-    
-    
-        public static void main(String[] args) {
-            
-            Circulo circ1 = new Circulo();
-            Circulo circ2 = new Circulo(5);
-            System.out.println("longitud de circulo2: " + circ2.calcLongitud());
-            System.out.println("area de circulo2: " + circ2.calcularArea());
-            
-        }
+
+    public static void main(String[] args) {
+
+        Circulo circ1 = new Circulo();
+        Circulo circ2 = new Circulo(5);
+        System.out.println("longitud de circulo2: " + circ2.calcLongitud());
+        System.out.println("area de circulo2: " + circ2.calcularArea());
+
+    }
 }

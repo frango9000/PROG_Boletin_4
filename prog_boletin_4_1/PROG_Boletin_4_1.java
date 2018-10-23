@@ -15,10 +15,10 @@ public class PROG_Boletin_4_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Coche coche1 = new Coche();
-       System.out.println(coche1.getVelocidade());
-       coche1.acelerar(10);
-       
-       System.out.println(coche1.getVelocidade());
+        Coche coche1 = new Coche();
+        System.out.println(coche1.getVelocidade());
+        coche1.acelerar(10);
+
+        System.out.println(coche1.getVelocidade());
     }
 }

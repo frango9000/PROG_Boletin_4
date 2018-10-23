@@ -10,25 +10,23 @@ package prog_boletin_4_1;
  * @author fsancheztemprano
  */
 public class Coche {
-    
-        private int velocidade;
 
-        public Coche(){
-            velocidade =0 ;
-         }
+    private int velocidade;
 
-//Engade a clase Coche os seguintes métodos :
-
-        public int getVelocidade(){// . Este método devolve a velocidade actual
-            return velocidade;
-        }
-
-        public void acelerar (int valor){// .Este método incrementa a velocidade na cantidade valor
-            velocidade+=valor;
-        }
-
-        public void frenar (int menos){//.Este método diminue a velocidade na cantidade menos.
-            velocidade-=menos;
-        }
+    public Coche() {
+        velocidade = 0;
     }
 
+//Engade a clase Coche os seguintes métodos :
+    public int getVelocidade() {// . Este método devolve a velocidade actual
+        return velocidade;
+    }
+
+    public void acelerar(int valor) {// .Este método incrementa a velocidade na cantidade valor
+        velocidade += valor;
+    }
+
+    public void frenar(int menos) {//.Este método diminue a velocidade na cantidade menos.
+        velocidade -= menos;
+    }
+}
